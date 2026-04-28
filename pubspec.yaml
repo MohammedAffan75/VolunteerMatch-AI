@@ -1,0 +1,50 @@
+name: volunteer_match_ai
+description: VolunteerMatch AI - Flutter + Firebase + Gemini social impact app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Firebase
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.9
+  firebase_messaging: ^15.2.10
+  firebase_ai: ^2.0.0
+  google_sign_in: ^6.3.0
+
+  # Location/maps
+  geolocator: ^13.0.2
+  google_maps_flutter: ^2.10.0
+
+  # Utilities and local persistence
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  uuid: ^4.5.1
+  collection: ^1.19.1
+
+  # UI
+  fl_chart: ^0.69.2
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.0.17
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
